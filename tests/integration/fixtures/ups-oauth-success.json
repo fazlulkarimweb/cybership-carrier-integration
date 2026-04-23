@@ -1,0 +1,10 @@
+{
+  "token_type": "Bearer",
+  "issued_at": "1707251471636",
+  "client_id": "abc123clientid",
+  "access_token": "eyJraWQiOiJ0ZXN0LWFjY2Vzcy10b2tlbiIsImFsZyI6IlJTMjU2In0.FAKE.TOKEN",
+  "scope": "",
+  "expires_in": "14399",
+  "refresh_count": "0",
+  "status": "approved"
+}

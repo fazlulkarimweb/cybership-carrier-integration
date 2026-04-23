@@ -1,0 +1,10 @@
+{
+  "response": {
+    "errors": [
+      {
+        "code": "NOTAUTHORIZED",
+        "message": "User is not Authorized to access this resource with an explicit deny."
+      }
+    ]
+  }
+}

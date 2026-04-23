@@ -1,0 +1,10 @@
+{
+  "response": {
+    "errors": [
+      {
+        "code": "9650001",
+        "message": "UPS is experiencing a temporary internal service disruption. Please try again later."
+      }
+    ]
+  }
+}

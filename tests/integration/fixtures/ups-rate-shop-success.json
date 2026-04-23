@@ -1,0 +1,61 @@
+{
+  "RateResponse": {
+    "Response": {
+      "ResponseStatus": { "Code": "1", "Description": "Success" },
+      "TransactionReference": { "CustomerContext": "Rate Shopping" }
+    },
+    "RatedShipment": [
+      {
+        "Service": { "Code": "03" },
+        "BillingWeight": {
+          "UnitOfMeasurement": { "Code": "LBS" },
+          "Weight": "5.0"
+        },
+        "TransportationCharges": { "CurrencyCode": "USD", "MonetaryValue": "13.50" },
+        "ServiceOptionsCharges": { "CurrencyCode": "USD", "MonetaryValue": "0.00" },
+        "TotalCharges": { "CurrencyCode": "USD", "MonetaryValue": "13.50" },
+        "GuaranteedDelivery": {
+          "BusinessDaysInTransit": "5"
+        },
+        "ItemizedCharges": [
+          {
+            "Code": "375",
+            "Description": "Residential Surcharge",
+            "CurrencyCode": "USD",
+            "MonetaryValue": "4.95"
+          }
+        ]
+      },
+      {
+        "Service": { "Code": "02" },
+        "TransportationCharges": { "CurrencyCode": "USD", "MonetaryValue": "22.12" },
+        "ServiceOptionsCharges": { "CurrencyCode": "USD", "MonetaryValue": "2.00" },
+        "TotalCharges": { "CurrencyCode": "USD", "MonetaryValue": "24.12" },
+        "GuaranteedDelivery": {
+          "BusinessDaysInTransit": "2"
+        },
+        "TimeInTransit": {
+          "ServiceSummary": {
+            "EstimatedArrival": {
+              "Arrival": { "Date": "20260428", "Time": "233000" },
+              "BusinessDaysInTransit": "2"
+            }
+          }
+        }
+      },
+      {
+        "Service": { "Code": "01" },
+        "TransportationCharges": { "CurrencyCode": "USD", "MonetaryValue": "51.00" },
+        "ServiceOptionsCharges": { "CurrencyCode": "USD", "MonetaryValue": "0.00" },
+        "TotalCharges": { "CurrencyCode": "USD", "MonetaryValue": "51.00" },
+        "NegotiatedRateCharges": {
+          "TotalCharge": { "CurrencyCode": "USD", "MonetaryValue": "46.50" }
+        },
+        "GuaranteedDelivery": {
+          "BusinessDaysInTransit": "1",
+          "DeliveryByTime": "10:30 A.M."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "response": {
+    "errors": [
+      {
+        "code": "250055",
+        "message": "Account rate limit exceeded. Please retry after the cool-down period."
+      }
+    ]
+  }
+}
